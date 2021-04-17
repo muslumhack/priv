@@ -10,6 +10,6 @@
 6- sudo listelerine bak (sudo -l)
 7- shadow dosyasına bak
 8- preload kontrol et
-9- Suid bit kontrol et (find , -u=s)
+9- Suid bit kontrol et ve crontab bak (find , -u=s // /etc/crontab)
 10- Çevresel değişkenleri kontrol et
 11- sudo versiyon açığı varmı kontrol et
