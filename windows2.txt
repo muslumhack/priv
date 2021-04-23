@@ -13,6 +13,7 @@ sc query type= service : tüm çalışan servisleri tarar
 Get-MpComputerStatus : Antivirüs varmı yokmu kontrol etmeye yarar.
 netsh firewall show state : firewall hakkında bilgi verir
 netsh advfirewall firewall : firewallar ile ilgi verir.
+netsh advfirewall firewall show rule name=all
 type deneme.txt : dosya içerisini komut satırı üzerinde okuyabiliriz.
 findstr /i “root.txt” : root.txt dosyasını arar.
 ------------------------- Kullanıcılar hakkında ---------------
