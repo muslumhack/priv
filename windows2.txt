@@ -21,6 +21,7 @@ net users : Kullanıcıları öğrenme
 net user <kullanıcıadi> : Kullanıcı adı hakkında bilgi verir.
 net user administrator : admin kullanıcısı hakkında bilgi alma
 net localgroup administrator : local adminleri gösterir.
+net localgroup administrator user /add : local admin olarak ekler
 Net user <kullanici adi> <parola> /add /DOMAIN : kullanici ekleme
 net group "domain admins" <kullaniciadi> /DOMAIN /add : kullaniciyi domaine ekleme
 net user <kullanici adi> /del : kullanici silme 
