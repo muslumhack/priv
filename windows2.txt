@@ -53,7 +53,6 @@ lm hashlerde tuzlama yoktur.(salting)
 ntlm  md4 kullanir.
 ntlm pass the hash yapilabilir.
 impacket-secretsdump -sam <samdosyasiyolu> -system <systemdosyasiyolu> -hashes lmhash:nthash LOCAL -outputfile <ciktialacaginizdosyayolu>
-Yada bir diğer araç: pypykatz registry --sam samfile systemfile
 john --format=lm<lm-yada ntlm gelicek> <hashdosyasi> --wordlist <wordlistdosyayolu>
 
 NTDS.dit :
